@@ -1,5 +1,6 @@
 import React from 'react'
 import "./HomePage.css";
+import MultipleItemsCarousel from "../../components/MultiItemCarousel/MultiItemCarousel";
 
 const HomePage = () => {
   return (
@@ -23,7 +24,7 @@ const HomePage = () => {
         <p className="text-2xl font-semibold text-gray-400 py-3 pb-10">
             Top Meals
           </p>
-          {/* <MultipleItemsCarousel /> */}
+          <MultipleItemsCarousel />
           </div>
           </section>
           <section className="px-5 lg:px-20">
